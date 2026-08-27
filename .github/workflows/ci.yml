@@ -38,5 +38,5 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/joelmesc/ad2026-app-base:latest
-            ghcr.io/joelmesc/ad2026-app-base:${{ env.SHORT_SHA }}
+            ghcr.io/JoelMEsc/ad2026-app-base:latest
+            ghcr.io/JoelMEsc/ad2026-app-base:${{ env.SHORT_SHA }}
